@@ -1,6 +1,6 @@
 <template>
   <div>
-    <q-btn>A Quasar button</q-btn>
+    <q-btn @click="$q.notify('My message')" color="primary" label="Show a notification" />
   </div>
 </template>
 
